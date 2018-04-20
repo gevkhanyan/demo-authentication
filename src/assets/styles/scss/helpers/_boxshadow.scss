@@ -1,0 +1,25 @@
+@mixin boxshadow($hor, $ver, $blur, $spread, $color, $opacity) {
+		-webkit-box-shadow: $hor $ver $blur $spread rgba($color, $opacity);
+		-moz-box-shadow: $hor $ver $blur $spread rgba($color, $opacity);
+		box-shadow: $hor $ver $blur $spread rgba($color, $opacity);
+}
+
+@mixin boxshadowComplex($hor, $ver, $blur, $spread, $color, $opacity,
+                        $hor2, $ver2, $blur2, $spread2, $color2, $opacity2,
+                         $hor3, $ver3, $blur3, $spread3, $color3, $opacity3) {
+		-webkit-box-shadow: $hor $ver $blur $spread rgba($color, $opacity),
+		$hor2 $ver2 $blur2 $spread2 rgba($color2, $opacity2),
+		$hor3 $ver3 $blur3 $spread3 rgba($color3, $opacity3);
+		-moz-box-shadow: $hor $ver $blur $spread rgba($color, $opacity),
+		$hor2 $ver2 $blur2 $spread2 rgba($color2, $opacity2),
+		$hor3 $ver3 $blur3 $spread3 rgba($color3, $opacity3);
+		box-shadow: $hor $ver $blur $spread rgba($color, $opacity),
+		$hor2 $ver2 $blur2 $spread2 rgba($color2, $opacity2),
+		$hor3 $ver3 $blur3 $spread3 rgba($color3, $opacity3);
+}
+
+@mixin borderCollapse($size, $color) {
+		box-shadow: $size 0 0 0 $color, 0 $size 0 0 $color, $size $size 0 0 $color, $size 0 0 0 $color inset, 0 $size 0 0 $color inset;
+		-webkit-box-shadow: $size 0 0 0 $color, 0 $size 0 0 $color, $size $size 0 0 $color, $size 0 0 0 $color inset, 0 $size 0 0 $color inset;
+		-moz-box-shadow: $size 0 0 0 $color, 0 $size 0 0 $color, $size $size 0 0 $color, $size 0 0 0 $color inset, 0 $size 0 0 $color inset;
+}

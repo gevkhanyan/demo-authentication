@@ -1,0 +1,124 @@
+// --------------------------------------------------------------------------------
+// note: Multi Colors
+// --------------------------------------------------------------------------------
+
+$yellow: #ffc140;
+$pink: #E91E63;
+$red: #f9063f;
+$red: #ff0000;
+$green: #54c08a;
+$aqua: #57c1bd;
+$blue: #4eb7f5;
+$blue-2: #25ace4;
+$blue-3: #0c92ca;
+$orange: #FF9800;
+
+// --------------------------------------------------------------------------------
+// note: Social Colors
+// --------------------------------------------------------------------------------
+
+$facebook: #3b5999;
+$twitter: #55acee;
+$instagram: #e4405f;
+$google: #dd4b39;
+
+// --------------------------------------------------------------------------------
+// note: Mono Colors
+// --------------------------------------------------------------------------------
+
+$black: #000;
+$gray: #b2b2b2;
+$darker-gray: #808080;
+$dark-gray: #2d2d2d;
+$darkest-blue: #2e384a;
+$dark-blue: #354052;
+$cloudy-blue: #bbc5d5;
+
+$blue-gray: #7f8fa4;
+$pale-gray: #eff3f6;
+$normal-gray: #F4F5F5;
+
+$white: #fff;
+
+// --------------------------------------------------------------------------------
+// note: Color Map for buttons
+// --------------------------------------------------------------------------------
+$colors-map: (
+				white: ($white, $pale-gray),
+				gray: ($dark-blue, #202D41),
+				grayLight: ($cloudy-blue, #5F7496),
+				black: ($black, #2e384a),
+				yellow: ($yellow, #F3A90E),
+				pink: ($pink, #DE0071),
+				red: ($red, #D40031),
+				green: ($aqua, #35A4A0),
+				blue: ($blue, #1C71AD)
+);
+
+// --------------------------------------------------------------------------------
+// TO DO: CHANGE THE COLOR CLASSES
+// --------------------------------------------------------------------------------
+
+$lighter: #e4e4e4;
+$blue-gray-light: #e8ebee;
+$border-gray: #e7e6e9;
+$table-gray: #dee0e4;
+$table-background: #eeeff0;
+$light-orange: #ffa61b;
+$blurred-img: "https://lh3.googleusercontent.com/-m8TxQMObg6c/U474EWu7Y9I/AAAAAAAAI2k/xkRGoIEC1iU/s1600/blur.jpg";
+
+// --------------------------------------------------------------------------------
+// note: Background color classes.
+// --------------------------------------------------------------------------------
+
+.g-background-light {
+		background-color: $white !important;
+}
+
+.g-background-light-black {
+		background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.g-background-semi {
+		background-color: $lighter !important;
+}
+
+.g-background-light-blue {
+		background-color: rgb(246, 252, 255) !important;
+}
+
+.g-background-dark {
+		background-color: $dark-blue !important;
+}
+
+.g-background-semi-dark {
+		background-color: $blue-gray-light !important;
+}
+
+.g-background-facebook {
+		color: $white !important;
+		background-color: $facebook !important;
+}
+
+.g-background-twitter {
+		color: $white !important;
+		background-color: $twitter !important;
+}
+
+.g-background-instagram {
+		color: $white !important;
+		background-color: $instagram !important;
+}
+
+.g-background-google {
+		color: $white !important;
+		background-color: $google !important;
+}
+
+// --------------------------------------------------------------------------------
+// TO DO: Text color
+// --------------------------------------------------------------------------------
+.text-orange {
+		color: $orange;
+}
+

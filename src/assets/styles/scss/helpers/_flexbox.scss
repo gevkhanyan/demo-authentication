@@ -1,0 +1,37 @@
+%flexbox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+%inlineflexbox {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+
+%alignCenter {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+%justifyCenter {
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+%flexFC {
+    @extend %flexbox;
+    @extend %alignCenter;
+    @extend %justifyCenter;
+}
+%inlineFlexFC {
+    @extend %inlineflexbox;
+    @extend %alignCenter;
+    @extend %justifyCenter;
+}
